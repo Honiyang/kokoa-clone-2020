@@ -1,0 +1,9 @@
+.nav {
+  background-color: #f9f9fa;
+  margin: 20px 40px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+/* width:25%로 나누고 flex로 가운데 정렬하는게 낫지않나? */
