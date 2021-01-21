@@ -6,11 +6,11 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/my-nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body {
-  height: 1000vh;
   font-family: "Open Sans", sans-serif;
 }
