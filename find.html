@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KokoaClone</title>
+    <title>Find - KokoaClone</title>
     <style></style>
   </head>
   <body>
@@ -24,48 +24,33 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <!-- 톱니바퀴에 뱃지-닷 넣기 실패!나중에다시도전 -->
+          <span class="badge-dot"> </span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
       </div>
     </header>
-
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://image.mycelebs.com/celeb/sq/1506_sq_01.jpg"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">현진이 누나</h4>
-            <!-- 일정구간넘어가면 "..." 으로 표현 -->
-            <h6 class="user-component__subtitle">저녁 먹었어?</h6>
-          </div>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:34</span>
-          <div class="badge">2</div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
         </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://static-cdn.jtvnw.net/jtv_user_pictures/32aa0e52-bad6-4688-beed-5566b68b3586-profile_image-300x300.png"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">배우) 미나미 씨</h4>
-            <!-- 일정구간넘어가면 "..." 으로 표현 -->
-            <h6 class="user-component__subtitle">시간 괜찮아요?</h6>
-          </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">3</div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
         </div>
       </div>
     </main>
@@ -79,7 +64,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="badge-on">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

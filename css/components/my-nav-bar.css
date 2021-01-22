@@ -19,21 +19,3 @@
   position: relative;
   color: #2e363e;
 }
-.nav__notificationv1 {
-  position: absolute;
-  left: 18px;
-  bottom: 15px;
-}
-.nav__notificationv2 {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: absolute;
-  left: 32px;
-  bottom: 28px;
-}
