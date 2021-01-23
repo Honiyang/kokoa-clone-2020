@@ -1,3 +1,4 @@
+/* 상단 아이콘4개 */
 .find-icons {
   display: flex;
 }
@@ -15,7 +16,7 @@
 .find-icons__icon span {
   margin-top: 15px;
 }
-
+/* 추천 친구란 */
 .recommended-friends {
   margin-top: 25px;
   padding-top: 15px;
@@ -31,22 +32,28 @@
   text-align: center;
   color: var(--gray);
 }
+/* 오픈채팅헤더 */
 .open-chat__header {
   padding-top: 15px;
   border-top: var(--main-border);
   display: flex;
   justify-content: space-between;
   color: var(--gray);
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 /* 앞column에 진한회색var따로 만들어서 넣음 */
 .open-chat__header h4 {
   color: var(--dark-gray);
 }
+/* 오픈포스트 */
 .open-post {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: var(--main-border);
 }
+/* 오픈포스트 앞콜롬 */
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;
@@ -63,7 +70,7 @@
 .open-post__members img {
   width: 22px;
   height: 22px;
-  border-radius: 30%;
+  border-radius: 40%;
   margin-right: 5px;
 }
 .open-post__member-count {
@@ -78,4 +85,28 @@
 }
 .open-post__member-status {
   color: #dd1a8f94;
+}
+/* 오픈포스트 뒷콜롬 */
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 6px;
+  bottom: 10px;
+}
+.open-post__heart-count span {
+  font-weight: 600;
+  margin-left: 5px;
 }
