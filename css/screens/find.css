@@ -17,18 +17,65 @@
 }
 
 .recommended-friends {
-  margin: 25px 0px;
-  padding: 25px 0px;
+  margin-top: 25px;
+  padding-top: 15px;
   border-top: var(--main-border);
-  border-bottom: var(--main-border);
 }
 .recommended-friends__title {
   font-size: 12px;
-  color: var(--gray);
+  color: var(--dark-gray);
 }
 .recommended-friends span {
   display: block;
   margin: 100px 0px;
   text-align: center;
   color: var(--gray);
+}
+.open-chat__header {
+  padding-top: 15px;
+  border-top: var(--main-border);
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  margin-bottom: 25px;
+}
+/* 앞column에 진한회색var따로 만들어서 넣음 */
+.open-chat__header h4 {
+  color: var(--dark-gray);
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--dark-gray);
+}
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  width: 22px;
+  height: 22px;
+  border-radius: 30%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  color: var(--gray);
+  font-size: 12px;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: var(--gray);
+}
+.open-post__member-status {
+  color: #dd1a8f94;
 }
