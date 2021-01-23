@@ -1,21 +1,3 @@
-/* 상단 아이콘4개 */
-.find-icons {
-  display: flex;
-}
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25%;
-  text-align: center;
-}
-.find-icons__icon i {
-  font-size: 35px;
-  color: var(--yellow);
-}
-.find-icons__icon span {
-  margin-top: 15px;
-}
 /* 추천 친구란 */
 .recommended-friends {
   margin-top: 25px;

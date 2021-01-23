@@ -1,0 +1,14 @@
+.more-screen .icon-row {
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+.more-screen .icon-row i {
+  color: var(--dark);
+}
+.more-suggestions {
+  padding-top: 25px;
+  border-top: var(--main-border);
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
