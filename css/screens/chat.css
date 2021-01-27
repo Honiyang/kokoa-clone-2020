@@ -18,4 +18,15 @@
 }
 .main-chat {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: rgba(255, 255, 255, 0.823);
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 25px;
 }
