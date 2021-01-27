@@ -78,3 +78,75 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.reply input {
+  padding-left: 10px;
+  height: 40px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+/* 앞에 [+] 아이콘 */
+.reply__column i {
+  color: var(--dark-gray);
+}
+.reply__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+/* 스마일 아이콘 */
+.reply__column:last-child > i {
+  position: absolute;
+  top: 8px;
+  right: 55px;
+  font-size: 28px;
+  color: var(--dark-gray);
+}
+/* 위화살표 버튼 */
+.reply__column:last-child button {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  background-color: var(--yellow);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.reply__column:last-child button i {
+  font-size: 20px;
+  color: var(--dark);
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
