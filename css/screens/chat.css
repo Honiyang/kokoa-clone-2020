@@ -111,7 +111,7 @@
   align-items: center;
   padding: 5px;
   box-sizing: border-box;
-  transition: opacity 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -121,17 +121,16 @@
 .reply .reply__column:last-child {
   width: 90%;
   position: relative;
-  display: flex;
-  justify-content: center;
   margin-right: 10px;
 }
 .reply input {
+  width: 100%;
   padding-left: 10px;
   height: 40px;
-  width: 100%;
   border: var(--main-border);
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.03);
+  background-color: white;
   transition: all 0.3s ease-in-out;
 }
 /* 앞에 [+] 아이콘 */
@@ -184,9 +183,12 @@
 .reply:focus-within button {
   opacity: 0;
 }
+.reply:focus-within .reply__column:last-child {
+  display: flex;
+  justify-content: center;
+}
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-10%) translateY(-80px);
+  transform: translateY(-80px) translateX(-9%);
 }
 .reply:focus-within {
   transform: translateY(80px);
